@@ -1,0 +1,54 @@
+# ────────── Python ──────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+
+# ────────── Virtual Environment ──────────
+.venv/
+venv/
+env/
+
+# ────────── Environment Variables ──────────
+.env
+.env.*
+!.env.example
+
+# ────────── Database / Memory ──────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ────────── RAG / Vector Index ──────────
+faiss_index/
+*.index
+
+# ────────── IDE ──────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ────────── OS ──────────
+.DS_Store
+Thumbs.db
+
+# ────────── Testing ──────────
+.coverage
+htmlcov/
+.pytest_cache/
+.coverage.*
+*.cover
+
+# ────────── Logs ──────────
+*.log
+
+# ────────── Streamlit ──────────
+.streamlit/secrets.toml
+
+# ────────── Docs build ──────────
+site/
